@@ -3,7 +3,7 @@ cvzone
 matplotlib
 mediapipe
 numpy 
-opencv
+opencv-python
 scikit_learn
 seaborn
 tensorflow
