@@ -3,6 +3,7 @@ cvzone
 matplotlib
 mediapipe
 numpy 
+opencv
 opencv-contrib-python
 opencv-python
 opencv_python_headless
