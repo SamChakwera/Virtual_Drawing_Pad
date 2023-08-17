@@ -15,7 +15,7 @@ Welcome to the Virtual Drawing Pad repository! This project combines the power o
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://https://github.com/SamChakwera/Virtual_Drawing_Pad.git
+    git clone https://github.com/SamChakwera/Virtual_Drawing_Pad.git
     cd virtual_drawing_pad
     ```
 
