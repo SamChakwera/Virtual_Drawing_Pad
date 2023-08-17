@@ -34,7 +34,7 @@ Welcome to the Virtual Drawing Pad repository! This project combines the power o
 1. Open the Streamlit app in your browser.
 2. Use the drawing canvas to sketch a number (0-9).
 3. Press the "Predict" button to see the AI's prediction.
-4. Marvel at the blend of art and technology!
+4. Marvel at the blend of art and technology! :)
 
 ## Contributing
 
@@ -46,6 +46,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## Acknowledgements
 
-- OpenAI for the inspiring GPT series.
 - Streamlit for making web app creation with Python a breeze.
 - TensorFlow and Keras communities for the continuous development of deep learning tools.
