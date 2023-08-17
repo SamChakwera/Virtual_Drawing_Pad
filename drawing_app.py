@@ -2,15 +2,9 @@
 import streamlit as st
 import numpy as np
 import cv2 as cv
-from PIL import Image, ImageDraw
 from streamlit.components.v1 import declare_component
 import base64
 import io
-
-# Refactored functions
-
-import cv2 as cv
-import numpy as np
 from PIL import ImageFont, Image, ImageDraw
 from tensorflow.keras.models import load_model
 
