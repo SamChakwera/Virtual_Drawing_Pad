@@ -1,5 +1,7 @@
 # Virtual Drawing Pad
 
+*Caution!! Still a work in progress...
+
 Welcome to the Virtual Drawing Pad repository! This project combines the power of drawing with the intelligence of AI. Draw a number on the virtual pad, and let our pre-trained AI model predict it for you.
 
 ![Demo Image](path_to_demo_image.png)  <!-- You can replace this with an actual path to a demo image or gif -->
