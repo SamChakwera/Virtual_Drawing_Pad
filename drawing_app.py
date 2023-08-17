@@ -1,7 +1,8 @@
 
 import streamlit as st
 import numpy as np
-import cv2 as cv
+import opencv
+#import cv2 as cv
 from streamlit.components.v1 import declare_component
 import base64
 import io
