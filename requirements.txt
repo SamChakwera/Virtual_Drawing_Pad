@@ -4,6 +4,7 @@ matplotlib
 mediapipe
 numpy 
 opencv-python
+opencv-contrib-python
 scikit_learn
 seaborn
 tensorflow
