@@ -1,7 +1,7 @@
 
 import streamlit as st
 import numpy as np
-import cv2 as cv
+import cv2
 from streamlit.components.v1 import declare_component
 import base64
 import io
@@ -10,9 +10,9 @@ from tensorflow.keras.models import load_model
 
 # Function to initialize the webcam
 def initialize_webcam():
-    cap = cv.VideoCapture(0)
-    width = cap.get(cv.CAP_PROP_FRAME_WIDTH)
-    height = cap.get(cv.CAP_PROP_FRAME_HEIGHT)
+    cap = cv2.VideoCapture(0)
+    width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+    height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     return cap, width, height
 
 # Function to load the model
@@ -21,14 +21,14 @@ def load_digit_model():
 
 # Function to preprocess the image
 def preprocess_image(img):
-    img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-    blur = cv.GaussianBlur(img_gray, (21, 21), 0)
-    _, img_binary = cv.threshold(blur, 50, 255, cv.THRESH_BINARY)
+    img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(img_gray, (21, 21), 0)
+    _, img_binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)
     return img_binary
 
 # Function to predict the digit
 def predict_digit(model, img):
-    img = cv.resize(img, (28,28), interpolation = cv.INTER_AREA)
+    img = cv2.resize(img, (28,28), interpolation = cv2.INTER_AREA)
     img = np.array(img)
     img = img.reshape(1,28,28,1)
     img = img/255.0
